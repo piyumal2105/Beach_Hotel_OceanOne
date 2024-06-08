@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 :root {
-  --primary-color: #002D72;
+  --primary-color: #002d72;
   --primary-color-dark: #164996;
   --text-dark: #0c0a09;
   --text-light: #78716c;
@@ -69,6 +69,7 @@
 
 .btn:hover {
   background-color: var(--primary-color-dark);
+  color: var(--white);
 }
 
 img {
@@ -207,7 +208,7 @@ nav {
 
 .input__group span {
   font-size: 1.75rem;
-  color: #002D72;
+  color: #002d72;
 }
 
 .input__group label {
@@ -601,5 +602,11 @@ nav {
 @media (width > 1024px) {
   .room__grid {
     gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .section__container {
+    padding: 20px; /* Less padding on smaller screens */
   }
 }
